@@ -40,7 +40,7 @@ const ContactUs = () => {
     // },
     onSubmit: async (values, { resetForm }) => {
   try {
-    const res = await fetch("https://your-backend-endpoint.com/api/contact", {
+    const res = await fetch("http://localhost:3001/contactform", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
