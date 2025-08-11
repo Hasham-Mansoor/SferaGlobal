@@ -1,0 +1,53 @@
+.ourMission {
+  background-color: white;
+  padding: 1rem;
+  max-width: auto;
+  margin: 0 auto;
+}
+
+.textAndImage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.content {
+    margin-top: 10px;
+  max-width: 900px;
+  /* margin-bottom: 0.5rem; */
+}
+
+
+
+.content p {
+    font-style:oblique;
+    font-weight: 700;
+  font-size: 24px;
+  line-height: 1.7;
+  color: #17374f ;
+}
+
+.imageWrapper {
+  width: 125px;
+}
+
+.imageWrapper img {
+    
+    margin: 0;
+  width: 100%;
+  height: auto;
+
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .textAndImage {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .imageWrapper {
+    width: 100px;
+  }
+}
