@@ -9,7 +9,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  text-align: right;
+  text-align: Left;
+  margin-right: 30px ;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: Left;
+    margin-left: 30px ;
 }
 
 .content {
@@ -29,13 +37,13 @@
 }
 
 .imageWrapper {
-  width: 125px;
+  width: 150px;
 }
 
 .imageWrapper img {
     
     margin: 0;
-  width: 100%;
+  width: 200%;
   height: auto;
 
 }

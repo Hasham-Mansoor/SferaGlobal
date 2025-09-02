@@ -1,4 +1,3 @@
-// src/data/navItems.js
 
 const navItems = [
   {
