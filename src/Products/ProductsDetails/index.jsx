@@ -17,13 +17,13 @@ const ProductDetail = () => {
   const whatsappNumber = "923364206751"; 
 
   return (
-    <div className="max-w-5xl mx-auto py-10 px-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="overflow-hidden rounded-xl shadow-sm ">
+    <div className="max-w-5xl mx-auto py-2 px-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="overflow-hidden  ">
           <img
             src={product.image}
             alt={product.title}
-            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+            className="w-full h-full object-cover hover:scale-150 transition-transform duration-300"
           />
         </div>
 
@@ -43,14 +43,12 @@ const ProductDetail = () => {
             >
               WhatsApp Now
             </a>
-            {/* <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition">
-              Buy Now
-            </button> */}
+            
           </div>
         </div>
       </div>
 
-    
+    <div className="mt-6"><h1 className="text-[#1e5d8a] text-xl font-bold"> Related Products</h1></div>
       <ProductGrid randomize={true} limit={4} />
     </div>
   );

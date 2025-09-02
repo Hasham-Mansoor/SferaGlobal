@@ -6,9 +6,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 
-import salt1 from "../../../assets/images/logo.png";
-import salt2 from "../../../assets/images/logo.png";
-import salt3 from "../../../assets/images/logo.png";
+import salt1 from "../../../assets/images/Pure-Industrial-Salt.png";
+import salt2 from "../../../assets/images/Harvested-sea-salt.png";
+import salt3 from "../../../assets/images/Bulk-Salt-Packaging.png";
 
 
 const slides = [
@@ -17,21 +17,21 @@ const slides = [
     title: "Pure Industrial Salt",
     subtitle: "Refined for Your Business Needs",
     button: "Explore Now",
-    link: "/products/industrial-salt",
+    link: "/industrial-specialty-salts",
   },
   {
     image: salt2,
     title: "Harvested Sea Salt",
     subtitle: "Naturally Sourced, Professionally Delivered",
-    button: "Get in Touch",
-    link: "/contact-us",
+    button: "View Products",
+    link: "/products",
   },
   {
     image: salt3,
     title: "Bulk Salt Packaging",
     subtitle: "Reliable Supply Chain for Global Markets",
-    button: "View Products",
-    link: "/products/packaging",
+    button: "Get in Touch",
+    link: "/contact-us",
   },
 ];
 
@@ -52,7 +52,7 @@ const HeroBanner = () => {
               style={{ backgroundImage: `url(${slide.image})` }}
             >
               {/* Dark overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-50" />
+              <div className="absolute inset-0 bg-opacity-50" />
 
               {/* Text content */}
               <div className="relative z-10 text-center text-white px-4 max-w-xl">
@@ -62,7 +62,7 @@ const HeroBanner = () => {
                 <p className="text-sm md:text-xl mb-6">{slide.subtitle}</p>
 
                 <Link to={slide.link}>
-                  <button className="bg-white text-[12px] font-semibold cursor-pointer text-black px-3 py-2 font-xs rounded-full shadow-md hover:bg-gray-200 transition" >
+                  <button className="bg-white text-[10px] font-semibold cursor-pointer text-[#17374f] px-2.5 py-2 font-xs rounded-full shadow-md hover:bg-gray-200 transition" >
                     {slide.button}
                   </button>
                 </Link>

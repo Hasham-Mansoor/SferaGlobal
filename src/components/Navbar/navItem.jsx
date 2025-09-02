@@ -1,4 +1,5 @@
 // src/data/navItems.js
+
 const navItems = [
   {
     label: "Edible Salt",
