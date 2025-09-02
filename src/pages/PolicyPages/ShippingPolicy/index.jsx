@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Shipping.module.css';
+import styles from './shipping.module.css';
 
 const ShippingPolicy = () => {
   return (
